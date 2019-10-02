@@ -11,7 +11,12 @@ are not passed. Spring sleuth will create new span and trace Ids if there are no
 The basic unit of work.
 
 ### Trace:
-Trace: A set of spans forming a tree-like structure. 
+A set of spans forming a tree-like structure. 
+
+
+## Dependencies
+
+This sample app calls rest-api downstream end point ( https://github.com/saagarwal-pivotal/rest-api.git) downstream and demonstrate that same traceId is carried over.
 
 
 
