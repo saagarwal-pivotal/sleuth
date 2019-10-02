@@ -5,6 +5,16 @@ To have same trace Id across different downstream micro services just pass X-B3-
 X-B3-SpanId in headers when calling the downstream service. If these header parameters
 are not passed. Spring sleuth will create new span and trace Ids if there are no existing traceid and span id headers
 
+## Terminology
+
+### Span: 
+The basic unit of work.
+
+### Trace:
+Trace: A set of spans forming a tree-like structure. 
+
+
+
 ## Requirements
 
 For building and running the application you need:
